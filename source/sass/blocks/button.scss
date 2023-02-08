@@ -1,0 +1,10 @@
+.button {
+  color: $basic-white;
+  font-family: "oswald", Arial, sans-serif;
+  background-color: $button;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: $button-hover;
+}

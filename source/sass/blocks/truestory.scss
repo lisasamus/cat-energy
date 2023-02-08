@@ -1,0 +1,71 @@
+.truestory {
+  background-color: $block-bg-gray;
+}
+
+.truestory__heading {
+  margin: 0 0 40px 0;
+  padding: 25px 0 0 0;
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: $basic-black;
+  line-height: 40px;
+}
+
+.truestory__text {
+  margin: 0 0 20px 0;
+}
+
+.truestory__table-wrapper {
+  margin: 0 0 34px 0;
+}
+
+.truestory__table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 0;
+}
+
+.truestory__table-block {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px $border-radio;
+  border-radius: 3px;
+  padding: 14px 5px 0 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.truestory__table-result {
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+  color: $basic-black;
+  text-align: center;
+}
+
+.truestory__table-text {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0 0 -10px 0;
+  background-color: $block-bg-gray;
+  max-width: 70px;
+  text-align: center;
+}
+
+.truestory__cost {
+  display: flex;
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.truestory__proof {
+  padding: 0 0 40px 0;
+}

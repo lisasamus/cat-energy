@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "lato";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/lato/Lato-Regular.woff2"),
+    url("../../fonts/lato/Lato-Regular.woff");
+}
+
+@font-face {
+  font-family: "oswaldmedium";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("../../fonts/oswald/oswaldmedium.woff2"),
+    url("../../fonts/oswald/oswaldmedium.woff");
+}
+
+@font-face {
+  font-family: "oswald";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/oswald/oswaldregular.woff2"),
+    url("../../fonts/oswald/oswaldregular.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');

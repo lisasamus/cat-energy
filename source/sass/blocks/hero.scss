@@ -1,0 +1,66 @@
+.hero {
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.hero__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__wrapper::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 302px;
+  background: linear-gradient($hero-bg, $hero-bg),
+    url("../../img/mobile/hero-bg-cat.png") center/cover;
+  z-index: -1;
+}
+
+/*.hero__wrap {
+  padding: 27px 20px 29px 20px;
+  color: $basic-white;
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+}*/
+
+.hero__heading {
+  padding: 27px 5px 0 5px;
+  margin: 0 0 25px 0;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+  color: $basic-white;
+}
+
+.hero__text {
+  margin: 0 0 29px 0;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-white;
+  font-family: "oswald", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.hero__product-img {
+  display: flex;
+}
+
+.hero__button {
+  padding: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+}
